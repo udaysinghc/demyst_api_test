@@ -10,7 +10,7 @@ Feature: Login API Tests
     Examples:
       | email          | password  | statusCode | errorMessage                                      |
       |                |           | 401        | You need to sign in or sign up before continuing. |
-      | test           |           | 401        | Invalid Email or.                                 |
+      | test           |           | 401        | Invalid Email or  password.                       |
       | test@gmail.com |           | 401        | Invalid Email or password.                        |
       |                | Test@1234 | 401        | You need to sign in or sign up before continuing. |
       | Test@gmail.com | Test@1234 | 401        | Invalid Email or password.                        |
