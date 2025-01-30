@@ -1,5 +1,6 @@
 Feature: Login API Tests
 
+  @smoke
   Scenario Outline: Login with different email and password combinations
     Given user email "<email>" and password "<password>"
     When user send POST request to login endpoint
