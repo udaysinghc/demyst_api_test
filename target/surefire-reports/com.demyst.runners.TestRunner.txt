@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.demyst.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.556 s <<< FAILURE! - in com.demyst.runners.TestRunner
+Login API Tests.Login with different email and password combinations #2  Time elapsed: 0.508 s  <<< FAILURE!
+org.junit.ComparisonFailure: Error message is not as expected expected:<Invalid Email or[].> but was:<Invalid Email or[ password].>
+
